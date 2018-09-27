@@ -66,7 +66,6 @@ class InteractiveRecord
         WHERE #{attribute.keys.first} = #{new_value}
       SQL
        DB[:conn].execute(sql)
-     end
   end
 
 
